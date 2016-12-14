@@ -48,6 +48,7 @@
 		2897709D1DFFDC3E003E9D2D /* 11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2897709B1DFFDC3E003E9D2D /* 11.jpeg */; };
 		289770A31DFFDC9D003E9D2D /* WDChartNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289770A01DFFDC9D003E9D2D /* WDChartNodeView.m */; };
 		289770A41DFFDC9D003E9D2D /* WDLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289770A21DFFDC9D003E9D2D /* WDLineChartView.m */; };
+		28C648381E0117C40014D02D /* IMG_4419.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 28C648371E0117C40014D02D /* IMG_4419.PNG */; };
 		28F33B621DFFE388004F509E /* stepfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28F33B611DFFE388004F509E /* stepfont.ttf */; };
 		28F33B661DFFF36F004F509E /* 微博.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F33B631DFFF36E004F509E /* 微博.png */; };
 		28F33B671DFFF36F004F509E /* 微博.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F33B631DFFF36E004F509E /* 微博.png */; };
@@ -167,6 +168,7 @@
 		289770A01DFFDC9D003E9D2D /* WDChartNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDChartNodeView.m; sourceTree = "<group>"; };
 		289770A11DFFDC9D003E9D2D /* WDLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDLineChartView.h; sourceTree = "<group>"; };
 		289770A21DFFDC9D003E9D2D /* WDLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDLineChartView.m; sourceTree = "<group>"; };
+		28C648371E0117C40014D02D /* IMG_4419.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4419.PNG; sourceTree = "<group>"; };
 		28F33B611DFFE388004F509E /* stepfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = stepfont.ttf; sourceTree = "<group>"; };
 		28F33B631DFFF36E004F509E /* 微博.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微博.png"; sourceTree = "<group>"; };
 		28F33B641DFFF36E004F509E /* QQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QQ.png; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				2849360F1DFF8D1E00D70C53 /* PrefixHeader.pch */,
 				2849360B1DFF8C8700D70C53 /* dots17.1.gif */,
 				2849360D1DFF8C9400D70C53 /* JSPDemo.js */,
+				28C648361E0117C40014D02D /* img-folder */,
 				284936051DFF8C7C00D70C53 /* JSPatch */,
 				284935FB1DFF8C5500D70C53 /* Vender */,
 				284935F51DFF8C3A00D70C53 /* Info.plist */,
@@ -393,6 +396,14 @@
 				289770A21DFFDC9D003E9D2D /* WDLineChartView.m */,
 			);
 			path = WDLineChartView;
+			sourceTree = "<group>";
+		};
+		28C648361E0117C40014D02D /* img-folder */ = {
+			isa = PBXGroup;
+			children = (
+				28C648371E0117C40014D02D /* IMG_4419.PNG */,
+			);
+			path = "img-folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -603,6 +614,7 @@
 				28F33B661DFFF36F004F509E /* 微博.png in Resources */,
 				284935F11DFF8C3A00D70C53 /* Assets.xcassets in Resources */,
 				284935EF1DFF8C3A00D70C53 /* Main.storyboard in Resources */,
+				28C648381E0117C40014D02D /* IMG_4419.PNG in Resources */,
 				284936021DFF8C5500D70C53 /* stepfont.ttf in Resources */,
 				2849360C1DFF8C8700D70C53 /* dots17.1.gif in Resources */,
 			);
