@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2801BC4C1DFFF526007BF0E8 /* 微信.png in Resources */ = {isa = PBXBuildFile; fileRef = 2801BC4B1DFFF526007BF0E8 /* 微信.png */; };
+		284935E61DFF8C3A00D70C53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 284935E51DFF8C3A00D70C53 /* main.m */; };
+		284935E91DFF8C3A00D70C53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 284935E81DFF8C3A00D70C53 /* AppDelegate.m */; };
+		284935EC1DFF8C3A00D70C53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284935EB1DFF8C3A00D70C53 /* ViewController.m */; };
+		284935EF1DFF8C3A00D70C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284935ED1DFF8C3A00D70C53 /* Main.storyboard */; };
+		284935F11DFF8C3A00D70C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284935F01DFF8C3A00D70C53 /* Assets.xcassets */; };
+		284935F41DFF8C3A00D70C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284935F21DFF8C3A00D70C53 /* LaunchScreen.storyboard */; };
+		284936021DFF8C5500D70C53 /* stepfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284935FC1DFF8C5500D70C53 /* stepfont.ttf */; };
+		284936031DFF8C5500D70C53 /* WDChartNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 284935FF1DFF8C5500D70C53 /* WDChartNodeView.m */; };
+		284936041DFF8C5500D70C53 /* WDLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 284936011DFF8C5500D70C53 /* WDLineChartView.m */; };
+		284936091DFF8C7C00D70C53 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 284936071DFF8C7C00D70C53 /* JPEngine.m */; };
+		2849360A1DFF8C7C00D70C53 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 284936081DFF8C7C00D70C53 /* JSPatch.js */; };
+		2849360C1DFF8C8700D70C53 /* dots17.1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2849360B1DFF8C8700D70C53 /* dots17.1.gif */; };
+		2849360E1DFF8C9400D70C53 /* JSPDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 2849360D1DFF8C9400D70C53 /* JSPDemo.js */; };
+		284936131DFF956400D70C53 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284936121DFF956400D70C53 /* HealthKit.framework */; };
+		2849361A1DFF959800D70C53 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284936191DFF959800D70C53 /* Messages.framework */; };
+		2849361E1DFF959800D70C53 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2849361D1DFF959800D70C53 /* MessagesViewController.m */; };
+		284936211DFF959800D70C53 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2849361F1DFF959800D70C53 /* MainInterface.storyboard */; };
+		284936231DFF959800D70C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284936221DFF959800D70C53 /* Assets.xcassets */; };
+		284936271DFF959800D70C53 /* IOSNewFunctionMessage.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 284936181DFF959700D70C53 /* IOSNewFunctionMessage.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2849362D1DFF95B100D70C53 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284936121DFF956400D70C53 /* HealthKit.framework */; };
+		284936361DFF95E000D70C53 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 284936351DFF95E000D70C53 /* IntentHandler.m */; };
+		2849363E1DFF95E000D70C53 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2849363D1DFF95E000D70C53 /* IntentsUI.framework */; };
+		284936421DFF95E000D70C53 /* IntentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284936411DFF95E000D70C53 /* IntentViewController.m */; };
+		284936491DFF95E000D70C53 /* IOSNewFunctionSiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2849363C1DFF95E000D70C53 /* IOSNewFunctionSiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2849364C1DFF95E000D70C53 /* IOSNewFunctionSiri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 284936321DFF95E000D70C53 /* IOSNewFunctionSiri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		284936541DFF95E700D70C53 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284936121DFF956400D70C53 /* HealthKit.framework */; };
+		2849365C1DFF963300D70C53 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2849365B1DFF963300D70C53 /* NotificationCenter.framework */; };
+		284936601DFF963300D70C53 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2849365F1DFF963300D70C53 /* TodayViewController.m */; };
+		284936671DFF963300D70C53 /* IOSNewFunctionWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2849365A1DFF963300D70C53 /* IOSNewFunctionWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2849366C1DFF963A00D70C53 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284936121DFF956400D70C53 /* HealthKit.framework */; };
+		2849366D1DFF964800D70C53 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284936121DFF956400D70C53 /* HealthKit.framework */; };
+		2849366F1DFF9F2500D70C53 /* stepfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2849366E1DFF9F2500D70C53 /* stepfont.ttf */; };
+		284936711DFFA0AC00D70C53 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 284936701DFFA0AC00D70C53 /* 12.jpg */; };
+		284936751DFFCBF600D70C53 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 284936741DFFCBF600D70C53 /* UIViewController+NavigationBar.m */; };
+		2849367B1DFFD63700D70C53 /* WDChartNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 284936781DFFD63700D70C53 /* WDChartNodeView.m */; };
+		2849367C1DFFD63700D70C53 /* WDLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2849367A1DFFD63700D70C53 /* WDLineChartView.m */; };
+		2897709C1DFFDC3E003E9D2D /* 11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2897709B1DFFDC3E003E9D2D /* 11.jpeg */; };
+		2897709D1DFFDC3E003E9D2D /* 11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2897709B1DFFDC3E003E9D2D /* 11.jpeg */; };
+		289770A31DFFDC9D003E9D2D /* WDChartNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289770A01DFFDC9D003E9D2D /* WDChartNodeView.m */; };
+		289770A41DFFDC9D003E9D2D /* WDLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289770A21DFFDC9D003E9D2D /* WDLineChartView.m */; };
+		28F33B621DFFE388004F509E /* stepfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28F33B611DFFE388004F509E /* stepfont.ttf */; };
+		28F33B661DFFF36F004F509E /* 微博.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F33B631DFFF36E004F509E /* 微博.png */; };
+		28F33B671DFFF36F004F509E /* 微博.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F33B631DFFF36E004F509E /* 微博.png */; };
+		28F33B681DFFF36F004F509E /* QQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F33B641DFFF36E004F509E /* QQ.png */; };
+		28F33B691DFFF36F004F509E /* QQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F33B641DFFF36E004F509E /* QQ.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		284936251DFF959800D70C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284935D91DFF8C3A00D70C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284936171DFF959700D70C53;
+			remoteInfo = IOSNewFunctionMessage;
+		};
+		284936471DFF95E000D70C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284935D91DFF8C3A00D70C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2849363B1DFF95E000D70C53;
+			remoteInfo = IOSNewFunctionSiriUI;
+		};
+		2849364A1DFF95E000D70C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284935D91DFF8C3A00D70C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284936311DFF95E000D70C53;
+			remoteInfo = IOSNewFunctionSiri;
+		};
+		284936651DFF963300D70C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284935D91DFF8C3A00D70C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284936591DFF963300D70C53;
+			remoteInfo = IOSNewFunctionWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2849362B1DFF959800D70C53 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2849364C1DFF95E000D70C53 /* IOSNewFunctionSiri.appex in Embed App Extensions */,
+				284936671DFF963300D70C53 /* IOSNewFunctionWidget.appex in Embed App Extensions */,
+				284936491DFF95E000D70C53 /* IOSNewFunctionSiriUI.appex in Embed App Extensions */,
+				284936271DFF959800D70C53 /* IOSNewFunctionMessage.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2801BC4B1DFFF526007BF0E8 /* 微信.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信.png"; sourceTree = "<group>"; };
+		284935E11DFF8C3A00D70C53 /* IOSNewFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSNewFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284935E51DFF8C3A00D70C53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		284935E71DFF8C3A00D70C53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		284935E81DFF8C3A00D70C53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		284935EA1DFF8C3A00D70C53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		284935EB1DFF8C3A00D70C53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		284935EE1DFF8C3A00D70C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		284935F01DFF8C3A00D70C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284935F31DFF8C3A00D70C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		284935F51DFF8C3A00D70C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284935FC1DFF8C5500D70C53 /* stepfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = stepfont.ttf; sourceTree = "<group>"; };
+		284935FE1DFF8C5500D70C53 /* WDChartNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDChartNodeView.h; sourceTree = "<group>"; };
+		284935FF1DFF8C5500D70C53 /* WDChartNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDChartNodeView.m; sourceTree = "<group>"; };
+		284936001DFF8C5500D70C53 /* WDLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDLineChartView.h; sourceTree = "<group>"; };
+		284936011DFF8C5500D70C53 /* WDLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDLineChartView.m; sourceTree = "<group>"; };
+		284936061DFF8C7C00D70C53 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		284936071DFF8C7C00D70C53 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		284936081DFF8C7C00D70C53 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		2849360B1DFF8C8700D70C53 /* dots17.1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dots17.1.gif; sourceTree = "<group>"; };
+		2849360D1DFF8C9400D70C53 /* JSPDemo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPDemo.js; sourceTree = "<group>"; };
+		2849360F1DFF8D1E00D70C53 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		284936101DFF93A100D70C53 /* IOSNewFunction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOSNewFunction.entitlements; sourceTree = "<group>"; };
+		284936121DFF956400D70C53 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		284936181DFF959700D70C53 /* IOSNewFunctionMessage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IOSNewFunctionMessage.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		284936191DFF959800D70C53 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		2849361C1DFF959800D70C53 /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		2849361D1DFF959800D70C53 /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		284936201DFF959800D70C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		284936221DFF959800D70C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284936241DFF959800D70C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2849362C1DFF95AE00D70C53 /* IOSNewFunctionMessage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOSNewFunctionMessage.entitlements; sourceTree = "<group>"; };
+		284936321DFF95E000D70C53 /* IOSNewFunctionSiri.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IOSNewFunctionSiri.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		284936341DFF95E000D70C53 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
+		284936351DFF95E000D70C53 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
+		284936371DFF95E000D70C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2849363C1DFF95E000D70C53 /* IOSNewFunctionSiriUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IOSNewFunctionSiriUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2849363D1DFF95E000D70C53 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		284936401DFF95E000D70C53 /* IntentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentViewController.h; sourceTree = "<group>"; };
+		284936411DFF95E000D70C53 /* IntentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentViewController.m; sourceTree = "<group>"; };
+		284936461DFF95E000D70C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284936531DFF95E400D70C53 /* IOSNewFunctionSiriUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOSNewFunctionSiriUI.entitlements; sourceTree = "<group>"; };
+		284936551DFF95F800D70C53 /* IOSNewFunctionSiri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOSNewFunctionSiri.entitlements; sourceTree = "<group>"; };
+		2849365A1DFF963300D70C53 /* IOSNewFunctionWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IOSNewFunctionWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2849365B1DFF963300D70C53 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2849365E1DFF963300D70C53 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		2849365F1DFF963300D70C53 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		284936641DFF963300D70C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2849366B1DFF963700D70C53 /* IOSNewFunctionWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOSNewFunctionWidget.entitlements; sourceTree = "<group>"; };
+		2849366E1DFF9F2500D70C53 /* stepfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = stepfont.ttf; sourceTree = "<group>"; };
+		284936701DFFA0AC00D70C53 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		284936721DFFCBF600D70C53 /* UIViewController_NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController_NavigationBar.h; sourceTree = "<group>"; };
+		284936731DFFCBF600D70C53 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		284936741DFFCBF600D70C53 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		284936771DFFD63700D70C53 /* WDChartNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDChartNodeView.h; sourceTree = "<group>"; };
+		284936781DFFD63700D70C53 /* WDChartNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDChartNodeView.m; sourceTree = "<group>"; };
+		284936791DFFD63700D70C53 /* WDLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDLineChartView.h; sourceTree = "<group>"; };
+		2849367A1DFFD63700D70C53 /* WDLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDLineChartView.m; sourceTree = "<group>"; };
+		2897709B1DFFDC3E003E9D2D /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpeg; sourceTree = "<group>"; };
+		2897709F1DFFDC9D003E9D2D /* WDChartNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDChartNodeView.h; sourceTree = "<group>"; };
+		289770A01DFFDC9D003E9D2D /* WDChartNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDChartNodeView.m; sourceTree = "<group>"; };
+		289770A11DFFDC9D003E9D2D /* WDLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDLineChartView.h; sourceTree = "<group>"; };
+		289770A21DFFDC9D003E9D2D /* WDLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDLineChartView.m; sourceTree = "<group>"; };
+		28F33B611DFFE388004F509E /* stepfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = stepfont.ttf; sourceTree = "<group>"; };
+		28F33B631DFFF36E004F509E /* 微博.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微博.png"; sourceTree = "<group>"; };
+		28F33B641DFFF36E004F509E /* QQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QQ.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284935DE1DFF8C3A00D70C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284936131DFF956400D70C53 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284936151DFF959700D70C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2849361A1DFF959800D70C53 /* Messages.framework in Frameworks */,
+				2849362D1DFF95B100D70C53 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2849362F1DFF95E000D70C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2849366D1DFF964800D70C53 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284936391DFF95E000D70C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2849363E1DFF95E000D70C53 /* IntentsUI.framework in Frameworks */,
+				284936541DFF95E700D70C53 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284936571DFF963300D70C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2849365C1DFF963300D70C53 /* NotificationCenter.framework in Frameworks */,
+				2849366C1DFF963A00D70C53 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		284935D81DFF8C3A00D70C53 = {
+			isa = PBXGroup;
+			children = (
+				284935E31DFF8C3A00D70C53 /* IOSNewFunction */,
+				2849361B1DFF959800D70C53 /* IOSNewFunctionMessage */,
+				284936331DFF95E000D70C53 /* IOSNewFunctionSiri */,
+				2849363F1DFF95E000D70C53 /* IOSNewFunctionSiriUI */,
+				2849365D1DFF963300D70C53 /* IOSNewFunctionWidget */,
+				284935E21DFF8C3A00D70C53 /* Products */,
+				284936111DFF956400D70C53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		284935E21DFF8C3A00D70C53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284935E11DFF8C3A00D70C53 /* IOSNewFunction.app */,
+				284936181DFF959700D70C53 /* IOSNewFunctionMessage.appex */,
+				284936321DFF95E000D70C53 /* IOSNewFunctionSiri.appex */,
+				2849363C1DFF95E000D70C53 /* IOSNewFunctionSiriUI.appex */,
+				2849365A1DFF963300D70C53 /* IOSNewFunctionWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284935E31DFF8C3A00D70C53 /* IOSNewFunction */ = {
+			isa = PBXGroup;
+			children = (
+				284936101DFF93A100D70C53 /* IOSNewFunction.entitlements */,
+				284935E71DFF8C3A00D70C53 /* AppDelegate.h */,
+				284935E81DFF8C3A00D70C53 /* AppDelegate.m */,
+				284935EA1DFF8C3A00D70C53 /* ViewController.h */,
+				284935EB1DFF8C3A00D70C53 /* ViewController.m */,
+				284935ED1DFF8C3A00D70C53 /* Main.storyboard */,
+				284935F01DFF8C3A00D70C53 /* Assets.xcassets */,
+				2897709B1DFFDC3E003E9D2D /* 11.jpeg */,
+				284936701DFFA0AC00D70C53 /* 12.jpg */,
+				284935F21DFF8C3A00D70C53 /* LaunchScreen.storyboard */,
+				2849360F1DFF8D1E00D70C53 /* PrefixHeader.pch */,
+				2849360B1DFF8C8700D70C53 /* dots17.1.gif */,
+				2849360D1DFF8C9400D70C53 /* JSPDemo.js */,
+				284936051DFF8C7C00D70C53 /* JSPatch */,
+				284935FB1DFF8C5500D70C53 /* Vender */,
+				284935F51DFF8C3A00D70C53 /* Info.plist */,
+				284935E41DFF8C3A00D70C53 /* Supporting Files */,
+			);
+			path = IOSNewFunction;
+			sourceTree = "<group>";
+		};
+		284935E41DFF8C3A00D70C53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				284935E51DFF8C3A00D70C53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		284935FB1DFF8C5500D70C53 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				284935FC1DFF8C5500D70C53 /* stepfont.ttf */,
+				284936721DFFCBF600D70C53 /* UIViewController_NavigationBar.h */,
+				284936731DFFCBF600D70C53 /* UIViewController+NavigationBar.h */,
+				284936741DFFCBF600D70C53 /* UIViewController+NavigationBar.m */,
+				284935FD1DFF8C5500D70C53 /* WDLineChartView */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		284935FD1DFF8C5500D70C53 /* WDLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				284935FE1DFF8C5500D70C53 /* WDChartNodeView.h */,
+				284935FF1DFF8C5500D70C53 /* WDChartNodeView.m */,
+				284936001DFF8C5500D70C53 /* WDLineChartView.h */,
+				284936011DFF8C5500D70C53 /* WDLineChartView.m */,
+			);
+			path = WDLineChartView;
+			sourceTree = "<group>";
+		};
+		284936051DFF8C7C00D70C53 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				284936061DFF8C7C00D70C53 /* JPEngine.h */,
+				284936071DFF8C7C00D70C53 /* JPEngine.m */,
+				284936081DFF8C7C00D70C53 /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		284936111DFF956400D70C53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				284936121DFF956400D70C53 /* HealthKit.framework */,
+				284936191DFF959800D70C53 /* Messages.framework */,
+				2849363D1DFF95E000D70C53 /* IntentsUI.framework */,
+				2849365B1DFF963300D70C53 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2849361B1DFF959800D70C53 /* IOSNewFunctionMessage */ = {
+			isa = PBXGroup;
+			children = (
+				2897709E1DFFDC9D003E9D2D /* WDLineChartView */,
+				2849362C1DFF95AE00D70C53 /* IOSNewFunctionMessage.entitlements */,
+				2849361C1DFF959800D70C53 /* MessagesViewController.h */,
+				2849361D1DFF959800D70C53 /* MessagesViewController.m */,
+				2849361F1DFF959800D70C53 /* MainInterface.storyboard */,
+				284936221DFF959800D70C53 /* Assets.xcassets */,
+				284936241DFF959800D70C53 /* Info.plist */,
+			);
+			path = IOSNewFunctionMessage;
+			sourceTree = "<group>";
+		};
+		284936331DFF95E000D70C53 /* IOSNewFunctionSiri */ = {
+			isa = PBXGroup;
+			children = (
+				284936551DFF95F800D70C53 /* IOSNewFunctionSiri.entitlements */,
+				284936341DFF95E000D70C53 /* IntentHandler.h */,
+				284936351DFF95E000D70C53 /* IntentHandler.m */,
+				284936371DFF95E000D70C53 /* Info.plist */,
+			);
+			path = IOSNewFunctionSiri;
+			sourceTree = "<group>";
+		};
+		2849363F1DFF95E000D70C53 /* IOSNewFunctionSiriUI */ = {
+			isa = PBXGroup;
+			children = (
+				284936531DFF95E400D70C53 /* IOSNewFunctionSiriUI.entitlements */,
+				284936401DFF95E000D70C53 /* IntentViewController.h */,
+				284936411DFF95E000D70C53 /* IntentViewController.m */,
+				284936461DFF95E000D70C53 /* Info.plist */,
+			);
+			path = IOSNewFunctionSiriUI;
+			sourceTree = "<group>";
+		};
+		2849365D1DFF963300D70C53 /* IOSNewFunctionWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2801BC4B1DFFF526007BF0E8 /* 微信.png */,
+				28F33B631DFFF36E004F509E /* 微博.png */,
+				28F33B641DFFF36E004F509E /* QQ.png */,
+				2849366E1DFF9F2500D70C53 /* stepfont.ttf */,
+				284936761DFFD63700D70C53 /* WDLineChartView */,
+				2849366B1DFF963700D70C53 /* IOSNewFunctionWidget.entitlements */,
+				2849365E1DFF963300D70C53 /* TodayViewController.h */,
+				2849365F1DFF963300D70C53 /* TodayViewController.m */,
+				284936641DFF963300D70C53 /* Info.plist */,
+			);
+			path = IOSNewFunctionWidget;
+			sourceTree = "<group>";
+		};
+		284936761DFFD63700D70C53 /* WDLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				284936771DFFD63700D70C53 /* WDChartNodeView.h */,
+				284936781DFFD63700D70C53 /* WDChartNodeView.m */,
+				284936791DFFD63700D70C53 /* WDLineChartView.h */,
+				2849367A1DFFD63700D70C53 /* WDLineChartView.m */,
+			);
+			path = WDLineChartView;
+			sourceTree = "<group>";
+		};
+		2897709E1DFFDC9D003E9D2D /* WDLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				28F33B611DFFE388004F509E /* stepfont.ttf */,
+				2897709F1DFFDC9D003E9D2D /* WDChartNodeView.h */,
+				289770A01DFFDC9D003E9D2D /* WDChartNodeView.m */,
+				289770A11DFFDC9D003E9D2D /* WDLineChartView.h */,
+				289770A21DFFDC9D003E9D2D /* WDLineChartView.m */,
+			);
+			path = WDLineChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284935E01DFF8C3A00D70C53 /* IOSNewFunction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284935F81DFF8C3A00D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunction" */;
+			buildPhases = (
+				284935DD1DFF8C3A00D70C53 /* Sources */,
+				284935DE1DFF8C3A00D70C53 /* Frameworks */,
+				284935DF1DFF8C3A00D70C53 /* Resources */,
+				2849362B1DFF959800D70C53 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				284936261DFF959800D70C53 /* PBXTargetDependency */,
+				284936481DFF95E000D70C53 /* PBXTargetDependency */,
+				2849364B1DFF95E000D70C53 /* PBXTargetDependency */,
+				284936661DFF963300D70C53 /* PBXTargetDependency */,
+			);
+			name = IOSNewFunction;
+			productName = IOSNewFunction;
+			productReference = 284935E11DFF8C3A00D70C53 /* IOSNewFunction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		284936171DFF959700D70C53 /* IOSNewFunctionMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284936281DFF959800D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunctionMessage" */;
+			buildPhases = (
+				284936141DFF959700D70C53 /* Sources */,
+				284936151DFF959700D70C53 /* Frameworks */,
+				284936161DFF959700D70C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSNewFunctionMessage;
+			productName = IOSNewFunctionMessage;
+			productReference = 284936181DFF959700D70C53 /* IOSNewFunctionMessage.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		284936311DFF95E000D70C53 /* IOSNewFunctionSiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284936501DFF95E000D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunctionSiri" */;
+			buildPhases = (
+				2849362E1DFF95E000D70C53 /* Sources */,
+				2849362F1DFF95E000D70C53 /* Frameworks */,
+				284936301DFF95E000D70C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSNewFunctionSiri;
+			productName = IOSNewFunctionSiri;
+			productReference = 284936321DFF95E000D70C53 /* IOSNewFunctionSiri.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2849363B1DFF95E000D70C53 /* IOSNewFunctionSiriUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2849364D1DFF95E000D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunctionSiriUI" */;
+			buildPhases = (
+				284936381DFF95E000D70C53 /* Sources */,
+				284936391DFF95E000D70C53 /* Frameworks */,
+				2849363A1DFF95E000D70C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSNewFunctionSiriUI;
+			productName = IOSNewFunctionSiriUI;
+			productReference = 2849363C1DFF95E000D70C53 /* IOSNewFunctionSiriUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		284936591DFF963300D70C53 /* IOSNewFunctionWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284936681DFF963300D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunctionWidget" */;
+			buildPhases = (
+				284936561DFF963300D70C53 /* Sources */,
+				284936571DFF963300D70C53 /* Frameworks */,
+				284936581DFF963300D70C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSNewFunctionWidget;
+			productName = IOSNewFunctionWidget;
+			productReference = 2849365A1DFF963300D70C53 /* IOSNewFunctionWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		284935D91DFF8C3A00D70C53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "肖扬";
+				TargetAttributes = {
+					284935E01DFF8C3A00D70C53 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4D29UAZH26;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					284936171DFF959700D70C53 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4D29UAZH26;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					284936311DFF95E000D70C53 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4D29UAZH26;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					2849363B1DFF95E000D70C53 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4D29UAZH26;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					284936591DFF963300D70C53 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4D29UAZH26;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 284935DC1DFF8C3A00D70C53 /* Build configuration list for PBXProject "IOSNewFunction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 284935D81DFF8C3A00D70C53;
+			productRefGroup = 284935E21DFF8C3A00D70C53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284935E01DFF8C3A00D70C53 /* IOSNewFunction */,
+				284936171DFF959700D70C53 /* IOSNewFunctionMessage */,
+				284936311DFF95E000D70C53 /* IOSNewFunctionSiri */,
+				2849363B1DFF95E000D70C53 /* IOSNewFunctionSiriUI */,
+				284936591DFF963300D70C53 /* IOSNewFunctionWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		284935DF1DFF8C3A00D70C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2897709C1DFFDC3E003E9D2D /* 11.jpeg in Resources */,
+				284936711DFFA0AC00D70C53 /* 12.jpg in Resources */,
+				284935F41DFF8C3A00D70C53 /* LaunchScreen.storyboard in Resources */,
+				2849360A1DFF8C7C00D70C53 /* JSPatch.js in Resources */,
+				28F33B681DFFF36F004F509E /* QQ.png in Resources */,
+				2849360E1DFF8C9400D70C53 /* JSPDemo.js in Resources */,
+				28F33B661DFFF36F004F509E /* 微博.png in Resources */,
+				284935F11DFF8C3A00D70C53 /* Assets.xcassets in Resources */,
+				284935EF1DFF8C3A00D70C53 /* Main.storyboard in Resources */,
+				284936021DFF8C5500D70C53 /* stepfont.ttf in Resources */,
+				2849360C1DFF8C8700D70C53 /* dots17.1.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284936161DFF959700D70C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F33B621DFFE388004F509E /* stepfont.ttf in Resources */,
+				284936231DFF959800D70C53 /* Assets.xcassets in Resources */,
+				284936211DFF959800D70C53 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284936301DFF95E000D70C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2849363A1DFF95E000D70C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2897709D1DFFDC3E003E9D2D /* 11.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284936581DFF963300D70C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2801BC4C1DFFF526007BF0E8 /* 微信.png in Resources */,
+				2849366F1DFF9F2500D70C53 /* stepfont.ttf in Resources */,
+				28F33B691DFFF36F004F509E /* QQ.png in Resources */,
+				28F33B671DFFF36F004F509E /* 微博.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284935DD1DFF8C3A00D70C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284935EC1DFF8C3A00D70C53 /* ViewController.m in Sources */,
+				284935E91DFF8C3A00D70C53 /* AppDelegate.m in Sources */,
+				284936031DFF8C5500D70C53 /* WDChartNodeView.m in Sources */,
+				284936091DFF8C7C00D70C53 /* JPEngine.m in Sources */,
+				284936751DFFCBF600D70C53 /* UIViewController+NavigationBar.m in Sources */,
+				284935E61DFF8C3A00D70C53 /* main.m in Sources */,
+				284936041DFF8C5500D70C53 /* WDLineChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284936141DFF959700D70C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289770A31DFFDC9D003E9D2D /* WDChartNodeView.m in Sources */,
+				2849361E1DFF959800D70C53 /* MessagesViewController.m in Sources */,
+				289770A41DFFDC9D003E9D2D /* WDLineChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2849362E1DFF95E000D70C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284936361DFF95E000D70C53 /* IntentHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284936381DFF95E000D70C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284936421DFF95E000D70C53 /* IntentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284936561DFF963300D70C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2849367B1DFFD63700D70C53 /* WDChartNodeView.m in Sources */,
+				284936601DFF963300D70C53 /* TodayViewController.m in Sources */,
+				2849367C1DFFD63700D70C53 /* WDLineChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		284936261DFF959800D70C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284936171DFF959700D70C53 /* IOSNewFunctionMessage */;
+			targetProxy = 284936251DFF959800D70C53 /* PBXContainerItemProxy */;
+		};
+		284936481DFF95E000D70C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2849363B1DFF95E000D70C53 /* IOSNewFunctionSiriUI */;
+			targetProxy = 284936471DFF95E000D70C53 /* PBXContainerItemProxy */;
+		};
+		2849364B1DFF95E000D70C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284936311DFF95E000D70C53 /* IOSNewFunctionSiri */;
+			targetProxy = 2849364A1DFF95E000D70C53 /* PBXContainerItemProxy */;
+		};
+		284936661DFF963300D70C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284936591DFF963300D70C53 /* IOSNewFunctionWidget */;
+			targetProxy = 284936651DFF963300D70C53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		284935ED1DFF8C3A00D70C53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284935EE1DFF8C3A00D70C53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		284935F21DFF8C3A00D70C53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284935F31DFF8C3A00D70C53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2849361F1DFF959800D70C53 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284936201DFF959800D70C53 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		284935F61DFF8C3A00D70C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		284935F71DFF8C3A00D70C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		284935F91DFF8C3A00D70C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunction/IOSNewFunction.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSNewFunction/PrefixHeader.pch";
+				INFOPLIST_FILE = IOSNewFunction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		284935FA1DFF8C3A00D70C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunction/IOSNewFunction.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSNewFunction/PrefixHeader.pch";
+				INFOPLIST_FILE = IOSNewFunction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		284936291DFF959800D70C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunctionMessage/IOSNewFunctionMessage.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				INFOPLIST_FILE = IOSNewFunctionMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction.IOSNewFunctionMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2849362A1DFF959800D70C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunctionMessage/IOSNewFunctionMessage.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				INFOPLIST_FILE = IOSNewFunctionMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction.IOSNewFunctionMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2849364E1DFF95E000D70C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunctionSiriUI/IOSNewFunctionSiriUI.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				INFOPLIST_FILE = IOSNewFunctionSiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction.IOSNewFunctionSiriUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2849364F1DFF95E000D70C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunctionSiriUI/IOSNewFunctionSiriUI.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				INFOPLIST_FILE = IOSNewFunctionSiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction.IOSNewFunctionSiriUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		284936511DFF95E000D70C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunctionSiri/IOSNewFunctionSiri.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				INFOPLIST_FILE = IOSNewFunctionSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction.IOSNewFunctionSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		284936521DFF95E000D70C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunctionSiri/IOSNewFunctionSiri.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				INFOPLIST_FILE = IOSNewFunctionSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction.IOSNewFunctionSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		284936691DFF963300D70C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunctionWidget/IOSNewFunctionWidget.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				INFOPLIST_FILE = IOSNewFunctionWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction.IOSNewFunctionWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2849366A1DFF963300D70C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IOSNewFunctionWidget/IOSNewFunctionWidget.entitlements;
+				DEVELOPMENT_TEAM = 4D29UAZH26;
+				INFOPLIST_FILE = IOSNewFunctionWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Vickate.IOSNewFunction.IOSNewFunctionWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284935DC1DFF8C3A00D70C53 /* Build configuration list for PBXProject "IOSNewFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284935F61DFF8C3A00D70C53 /* Debug */,
+				284935F71DFF8C3A00D70C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284935F81DFF8C3A00D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284935F91DFF8C3A00D70C53 /* Debug */,
+				284935FA1DFF8C3A00D70C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284936281DFF959800D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunctionMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284936291DFF959800D70C53 /* Debug */,
+				2849362A1DFF959800D70C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2849364D1DFF95E000D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunctionSiriUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2849364E1DFF95E000D70C53 /* Debug */,
+				2849364F1DFF95E000D70C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284936501DFF95E000D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunctionSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284936511DFF95E000D70C53 /* Debug */,
+				284936521DFF95E000D70C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284936681DFF963300D70C53 /* Build configuration list for PBXNativeTarget "IOSNewFunctionWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284936691DFF963300D70C53 /* Debug */,
+				2849366A1DFF963300D70C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 284935D91DFF8C3A00D70C53 /* Project object */;
+}

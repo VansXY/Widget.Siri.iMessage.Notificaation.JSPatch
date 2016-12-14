@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  IOSNewFunction
+//
+//  Created by 肖扬 on 2016/12/13.
+//  Copyright © 2016年 肖扬. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+
+
+#import "WDChartNodeView.h"
+#import "WDLineChartView.h"
+#import "JPEngine.h"
+#import "UIViewController_NavigationBar.h"
+
+
+
+#endif /* PrefixHeader_pch */
