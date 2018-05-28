@@ -33,6 +33,7 @@
 
 ![image](https://raw.githubusercontent.com/VansXY/Widget.Siri.iMessage.Notificaation.JSPatch/master/IOSNewFunction/IOSNewFunction/img-folder/IMG_4424.PNG)
 
+____________________
 
 #引用：
 感谢wilDog，Github：https://github.com/Wildog/iOS-10-Steps-Widget         
