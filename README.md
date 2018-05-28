@@ -8,15 +8,20 @@
 
 #界面展示
 ![image](https://raw.githubusercontent.com/VansXY/Widget.Siri.iMessage.Notificaation.JSPatch/master/IOSNewFunction/IOSNewFunction/img-folder/IMG_4419.PNG)
+
 #Widget界面
 ![image](https://raw.githubusercontent.com/VansXY/Widget.Siri.iMessage.Notificaation.JSPatch/master/IOSNewFunction/IOSNewFunction/img-folder/IMG_4420.PNG)
 ![image](https://raw.githubusercontent.com/VansXY/Widget.Siri.iMessage.Notificaation.JSPatch/master/IOSNewFunction/IOSNewFunction/img-folder/IMG_4421.PNG)
+
 #iMessage界面
 ![image](https://raw.githubusercontent.com/VansXY/Widget.Siri.iMessage.Notificaation.JSPatch/master/IOSNewFunction/IOSNewFunction/img-folder/IMG_4423.PNG)
+
 #Notification界面
 ![image](https://raw.githubusercontent.com/VansXY/Widget.Siri.iMessage.Notificaation.JSPatch/master/IOSNewFunction/IOSNewFunction/img-folder/IMG_4425.PNG)
+
 #Siri界面
 ![image](https://raw.githubusercontent.com/VansXY/Widget.Siri.iMessage.Notificaation.JSPatch/master/IOSNewFunction/IOSNewFunction/img-folder/IMG_4426.PNG)
+
 #3D—Touch
 ![image](https://raw.githubusercontent.com/VansXY/Widget.Siri.iMessage.Notificaation.JSPatch/master/IOSNewFunction/IOSNewFunction/img-folder/IMG_4424.PNG)
 
